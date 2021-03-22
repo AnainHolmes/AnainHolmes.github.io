@@ -1,0 +1,104 @@
+  /* gwiazdka odnosi się do wszystkiego na stronie */
+  
+  * {
+      margin: 0px;
+      padding: 0px;
+  }
+  
+  body {
+      font: 16px arial;
+      line-height: 1.6;
+      background: rgb(242, 220, 179);
+  }
+  
+  .blok {
+      width: 90%;
+      overflow: hidden;
+      margin: 0 auto;
+  }
+  
+  a {
+      color: rgb(0, 0, 0);
+  }
+  /* podświetlenie tekstu na czewono po najechaniu myszką */
+  
+  a:hover {
+      color: rgb(255, 255, 255)
+  }
+  
+  .naglowek {
+      height: 100px;
+      margin: 0 0 10px 0;
+      background-color: rgb(64, 27, 19);
+      text-align: center;
+      overflow-x: hidden;
+  }
+  
+  .naglowek h1 {
+      padding: 20px;
+      color: rgb(255, 255, 255);
+  }
+  
+  .tresc {
+      width: 98%;
+      /* position relative rozmiar elementu nie wpływa na rozmiar innych elementów na stroniek */
+      position: relative;
+      top: 30px;
+      background: rgb(140, 91, 63);
+      float: left;
+      /* padding - margines wewnętrzny */
+      padding: 1%;
+      overflow: hidden;
+      margin-top: 3%;
+      text-align: center;
+  }
+  
+  .menu {
+      width: 88%;
+      height: 30px;
+      position: relative;
+      background: rgb(217, 171, 130);
+      padding: 1%;
+      overflow: hidden;
+      margin-left: 5%;
+      text-align: center;
+  }
+  
+  .menu h4 {
+      padding: 3px 3px 15px 3px;
+      display: none;
+  }
+  
+  .menu ul li {
+      list-style-type: none;
+      padding: 0 0 0 10px;
+      /* wyświetlanie w linii */
+      display: inline;
+  }
+  
+  li a {
+      /* brak dekoracji tekstu(podkreślenia linku) */
+      text-decoration: none;
+  }
+  
+  table,
+  td {
+      border-collapse: collapse;
+      border: 1px solid rgb(0, 0, 0);
+  }
+  
+  td {
+      padding: 10px;
+  }
+  
+  table {
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  img {
+      margin: 1%;
+      /* zaokrąglenie krawędzi */
+      border-radius: 15px;
+  }
+  /* czerwona ramka wokół zdjęcia po najechaniu */
